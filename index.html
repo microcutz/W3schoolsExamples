@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <style>
+        h1 {
+            color: blue;
+            font-family: Input;
+            font-size: 300%;
+        }
+
+        #p01 {
+            color: red;
+            font-family: "Courier New";
+            font-size: 160%;
+            border: 1px solid lightcoral;
+            padding: 30px;
+            margin: 50px;
+        }
+
+        p.error {
+            color:red;
+            padding: 10px;
+            border: 3px solid lightseagreen;
+        }
+
+        a:link {color: green; background-color: transparent; text-decoration: none;}
+        a:visited {color: lightslategrey; background-color: transparent; text-decoration: none;}
+        a:hover {color: red; background-color: transparent; text-decoration: underline;}
+        a:active {color: yellow; background-color: transparent; text-decoration: underline;}
+    </style>
+    <link rel="stylesheet" href="styles.css">
     <title>W3Schools Examples</title>
     <meta charset="UTF-8">
 </head>
 
-<body style="background-color:powderblue;">
+<body>
+
+<!---Lesson 16: HTML Tables---->
+<h1 >Lesson 16: HTML Tables</h1>
+
+
+
+<hr>
+
+<!---Lesson 15: HTML Images---->
+<h1 >Lesson 15: HTML Images</h1>
+
+<h2>Spectacular Mountain</h2>
+<img src="images/mount_cook" alt="Mount Cook" style="width:304px;height:228px;">
+<img src="error.gif" alt="Some Icon" style="width: 128px;height: 128px;">
+<img src="html5.gif" alt="HTML5 Icon" style="width: 64px; height: 64px;">
+<img src="html5.gif" alt="HTML Icon" width="128" height="128">
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="w3schools.com">
+
+<a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px; height:42px;">
+</a>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float: right; width:42px; height: 42px;">
+    The image will float to the right of the text.
+</p>
+
+<P><img src="smiley.gif" alt="Smiley face" style="float: left; width: 42px; height: 42px;">
+    The image will float to the left of the text.
+</P>
+
+<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width: 145px; height: 126px;">
+
+<map name="planetmap">
+    <area shape="rect" coords="0, 0, 82,126" alt="Sun" href="sun.htm">
+    <area shape="circle" coords="90, 58, 3" alt="Mercury" href="mercur.htm">
+    <area shape="circle" coords="124, 58, 8" alt="Venus" href="venus.htm">
+</map>
+
+
+<hr>
+
+<!---Lesson 14: HTML Links---->
+<h1 >Lesson 14: HTML Links</h1>
+
+<a href="https://www.w3schools.com/html/">Visit w3schools.com HTML tutorial</a>
+<a href="w3schools.jpg">HTML Images<br></a>
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+<a href="https://www.w3schools.com/html/" target="_top">HTML5 Tutorial!<br></a>
+<a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+<br>
+<h2 id="C4">Chapter 4</h2>
+<a href="#C4">Jump to Chapter 4</a>
+<a href="html_demo.html#C4">Jump to chapter 4</a>
+
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+<hr>
+
+<!---Lesson 13: HTML CSS---->
+<h1 >Lesson 13: HTML CSS</h1>
+
+<h1 style="color:blue;">This is a blue heading, using inline</h1>
+
+<p id="p01">Using this as an example paragraph, the changes applied will be visible.</p>
+<p>Though this paragraph contains no changes.</p>
+<p class="error">Though using the class attribute I can change accordingly</p>
+<hr>
 
 <!---Lesson 12: HTML Colours---->
 <h1 >Lesson 12: HTML Colours</h1>
