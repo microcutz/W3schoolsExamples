@@ -5,5 +5,41 @@ h1 {
     color: red;
 }
 p {
-    color: blueviolet;
+    color: gold;
+}
+
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li.horizontal {
+    float: left;
+}
+
+li.horizontal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.horizontal a:hover {
+    background-color: #111111;
+}
+
+div.cities {
+    background-color: black;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+}
+
+span.note {
+    font-size: 120%;
+    color: red;
 }
