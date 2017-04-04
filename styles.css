@@ -1,9 +1,12 @@
 body {
-    background-color: paleturquoise;
+   background-color: paleturquoise;
 }
-h1 {
+h1.lesson {
     color: red;
+    padding: 0;
 }
+
+
 p {
     color: dimgrey;
 }
@@ -42,4 +45,53 @@ div.cities {
 span.note {
     font-size: 120%;
     color: red;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+h1.gallery {
+    color: black;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 110px;
+    border-left: 1px solid grey;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.city {
+    float: left;
+    margin: 5px;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    border: 1px solid black;
 }
